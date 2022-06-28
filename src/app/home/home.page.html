@@ -1,11 +1,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
-<ion-header class="ion-no-border">
-  <ion-toolbar class="grid-header">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One:wght@400;700&family=Staatliches&family=Titan+One&display=swap" rel="stylesheet">
+<ion-header class="ion-no-border">  <!-- baslangıc -->
+  <ion-toolbar class="grid-header">  <!--grid background -->
     
-    <ion-grid class="by-header">
-      <ion-row>
+    <ion-grid class="by-header"> <!--header kısmı -->
+      <ion-row> 
         <ion-col class="ion-text-left" size="6"><h2>Dashboard</h2></ion-col>
         <ion-col class="ion-text-right" size="6">
           <ion-button (click)="onClick()" fill="clear" color="light">
@@ -17,9 +18,9 @@
   
   </ion-toolbar>
 </ion-header>
-<ion-content scroll-y="false" >
-  <div class="by-grid1-background">
-  <ion-grid class="by-gridbox1">
+<ion-content scroll-y="false" > <!--y scroll kapalı content baslangıc -->
+  <div class="by-grid1-background"> <!--background devam -->
+  <ion-grid class="by-gridbox1"> <!--1inci grid -->
     <ion-row>
       <ion-col size="12">
         <ion-label><h4>today</h4></ion-label></ion-col>
@@ -49,25 +50,59 @@
         </ion-label>
         
       </ion-col>
-      <ion-col class="by-textbutton ion-text-end" size="6">
-        <ion-item lines="none">
-          <ion-label color="primary">
+      <ion-col class="by-textbutton" size="6">
+        <ion-item  lines="none">
+          <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+          <ion-label  color="primary">
             WİTHDRAW
-          </ion-label> <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+          </ion-label>
             <ion-icon color="primary" name="arrow-forward-outline"></ion-icon>
           </ion-button>
-          
-        </ion-item>
+          </ion-item>
       </ion-col>
      </ion-row>
      <ion-row class="ion-padding-top">
-      <ion-col class="ion-text-start" size="10"><ion-label><h5>Payment History</h5></ion-label></ion-col>
-      <ion-col size="2">
-        <ion-icon class="ion-text-end" name="ellipsis-vertical-outline"></ion-icon> 
+      <ion-col class="ion-text-start" size="6"><ion-label><h5>Payment History</h5></ion-label></ion-col>
+      <ion-col class="ion-text-end" size="6">
+        <ion-icon  name="ellipsis-vertical-outline"></ion-icon> 
     </ion-col>
      </ion-row>
      </ion-grid>
-     <div class="by-slides-map">
+     <div>
+      <ion-grid class="by-gridbox3">
+        <ion-row>
+          <ion-col class="ion-text-start" size="6">Ongoing Trip</ion-col>
+          <ion-col class="ion-text-end" size="6">
+            <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="gridbox" size="6">
+            
+
+          </ion-col>
+          <ion-col class="by-textbutton" size="6">
+            <ion-item  lines="none">
+              <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+              <ion-label  color="primary">
+                NAVİGATİON
+              </ion-label>
+                <ion-icon color="primary" name="arrow-forward-outline"></ion-icon>
+              </ion-button>
+              </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row> 
+          <ion-col class="ion-text-start" size="6">Upcoming Trips ($)</ion-col>
+          <ion-col class="ion-text-end" size="6">
+            <ion-icon name="chevron-forward-sharp"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+     </div>
+     <div class="by-slides-map"> 
       <ion-slides [option]="slidesOptions">
         <ion-slide>
           <ion-card>

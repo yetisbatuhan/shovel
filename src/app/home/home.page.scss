@@ -11,7 +11,7 @@
     // position: relative;
     // top: 15px;
     color: white;
-    font-family: 'Staatliches', cursive;
+    
     
     
     
@@ -32,32 +32,32 @@
  
 
 .by-gridbox2{ //2. row'un iç dizaynı yapımı
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 15px;
   width: 80%;
   height: 130px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 1rem;
+  // padding: 1rem;
   
 }
 .by-textbutton{ //witdraw buttonu  
-  ion-item{
-    // border: 1px solid black;
-    border-radius: 1px;
-    
-    ion-label{
-      font-size: 10px;
-    }
-  }
+    display: flex;
+    justify-content: end;
   
 
 }
 .by-slides-map{   //slider kısmı position ayarlanması 
-  
+    
+      h5{
+        // font-family: 'Staatliches', cursive;
+        // font-family: 'Titan One', cursive;
+        font-size: 15px;
+        color: black;
+      }
+    
     margin-top: 1rem;
     ion-slides{
-
+      
       width: 90%;
       height: 270px;
       
@@ -67,10 +67,19 @@
       padding: 10px 0;
       
     }
+    ion-card-subtitle{
+      font-style: italic;
+    }
 
 }
-// .by-textbutton{ 
-//   width: 50px;
-//   height: px;
-//   border: 1px solid black;  
-// }
+.by-gridbox3{
+  margin-top: 15px;
+  width: 80%;
+  height: 130px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+   .gridbox{
+    border: 1px solid black;
+   }
+}
