@@ -1,11 +1,11 @@
 
 
 .grid-header{
-  --background: #386BF0;
+  --background: #386BF0; // header background
 }
-.by-header{
+.by-header{   // header kısmının position ayarlamaları ve renk secimi
     // border: 1px solid black;
-    text-align: center;
+    text-align: center;       
     width: 100%;
     height: 80px;
     // position: relative;
@@ -16,11 +16,11 @@
     
     
 }
-.by-grid1-background{
-  background: linear-gradient(180deg,#386BF0 90%,white 10%);
-  border-radius: 0 0 0px 0px;
+.by-grid1-background{ // box-shadow icin background'un uzatılıp ayarlanması 
+  background: linear-gradient(180deg,#386BF0 80%,white 10%); 
+  
 }
-.by-gridbox1{
+.by-gridbox1{ // 1. row'un iç dizaynı yapımı
   text-align: center;
   width: 80%;
   padding: 1rem;
@@ -31,7 +31,7 @@
 }
  
 
-.by-gridbox2{
+.by-gridbox2{ //2. row'un iç dizaynı yapımı
   margin-top: 30px;
   text-align: center;
   width: 80%;
@@ -41,10 +41,10 @@
   padding: 1rem;
   
 }
-.by-textbutton{
+.by-textbutton{ //witdraw buttonu  
   ion-item{
     // border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 1px;
     
     ion-label{
       font-size: 10px;
@@ -53,7 +53,7 @@
   
 
 }
-.by-slides-map{
+.by-slides-map{   //slider kısmı position ayarlanması 
   
     margin-top: 1rem;
     ion-slides{
@@ -63,8 +63,11 @@
       
     }
     ion-img{
-      // width: 280px;
-      // padding-bottom: 10px;
+      width: 100%;
+      padding: 10px 0;
+      
+      
+      // font-family: 'Staatliches', cursive;
     }
 
 }
