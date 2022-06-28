@@ -9,6 +9,6 @@ export class HomePage {
 
   constructor() {}
   slideOption = {
-    slidesPerView: 1.5
+    slidesPerView: 0.5
   }
 }
