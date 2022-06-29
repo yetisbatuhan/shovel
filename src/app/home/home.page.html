@@ -2,18 +2,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One:wght@400;700&family=Staatliches&family=Titan+One&display=swap" rel="stylesheet">
+
 <ion-header class="ion-no-border">  <!-- baslangıc -->
   <ion-toolbar class="grid-header">  <!--grid background -->
     
     <ion-grid class="by-header"> <!--header kısmı -->
       <ion-row> 
-        <ion-col class="ion-text-left" size="6"><h2>Dashboard</h2></ion-col>
-        <ion-col class="ion-text-right" size="6">
-          <ion-button (click)="onClick()" fill="clear" color="light">
-            <ion-icon name="menu-sharp"></ion-icon>
-          </ion-button>
-        </ion-col>
-      </ion-row>
+        <ion-col class="ion-text-left" size="12"><h2>Dashboard</h2></ion-col>
+        </ion-row>
     </ion-grid>
   
   </ion-toolbar>
@@ -52,7 +48,7 @@
       </ion-col>
       <ion-col class="by-textbutton" size="6">
         <ion-item  lines="none">
-          <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+          <ion-button routerLink="/wthdraw" fill="clear" shape="round">
           <ion-label  color="primary">
             WİTHDRAW
           </ion-label>
@@ -73,7 +69,7 @@
         <ion-row>
           <ion-col class="ion-text-start" size="6">Ongoing Trip</ion-col>
           <ion-col class="ion-text-end" size="6">
-            <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
+            <ion-icon  name="ellipsis-vertical-sharp"></ion-icon>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -83,7 +79,7 @@
           </ion-col>
           <ion-col class="by-textbutton" size="6">
             <ion-item  lines="none">
-              <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+              <ion-button routerLink="/navigation"   fill="clear" shape="round">
               <ion-label  color="primary">
                 NAVİGATİON
               </ion-label>
@@ -93,9 +89,9 @@
           </ion-col>
         </ion-row>
         <ion-row> 
-          <ion-col class="ion-text-start" size="6">Upcoming Trips ($)</ion-col>
+          <ion-col class="ion-text-start"  size="6">Upcoming Trips ($)</ion-col>
           <ion-col class="ion-text-end" size="6">
-            <ion-icon name="chevron-forward-sharp"></ion-icon>
+            <ion-icon routerLink="/upcoming-trips" name="chevron-forward-sharp"></ion-icon>
           </ion-col>
         </ion-row>
       </ion-grid>
