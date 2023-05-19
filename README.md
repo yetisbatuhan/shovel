@@ -4,26 +4,26 @@ shovel projesi taşımacılık sektöründe boşluk üzerine düsünülmüş bir
 
 ## Amaç
 
-shovel app tasımacılık filolarını ve bireysel tasımacılık ihtiyacını bulusturmak üzerine tasarlanmıs bir applikasyondur.   
+shovel app tasımacılık filolarını ve bireysel tasımacılık ihtiyacını bulusturmak üzerine tasarlanmıs bir applikasyondur. projenin bu kısmında mobil optimizasyona duyarlı  arayüz tasarımlarımları çalısılmıstır.     
 ## Örnek Ekran Görüntüsü
 
 <p align="center">
-  <img src="dashboard.png" alt="Proje Ekran Görüntüsü" width="400">
+  <img src="dashboard.png" alt="Proje Ekran Görüntüsü" width="600">
 </p>
 ![Proje Ekran Görüntüsü](my-earning.jpg)
 ![Proje Ekran Görüntüsü](navigation.jpg)
 ![Proje Ekran Görüntüsü](schedule.jpg)
-## Kurulum
+## Start the project
 
-Burada, projenin nasıl kurulacağına dair adımları açıklayabilirsiniz. Gerekli bağımlılıkları nasıl yükleyeceğinizi veya projeyi nasıl çalıştıracağınızı belirtebilirsiniz.
+The project is started with the regular ionic commands.
+
+Run npm install to install all dependencies.
+Run ionic serve to start the development environment.
+To build the project run ionic build android or ionic build ios. In order for you to build an iOS app, you need to run on MacOS.
+An alternative is to emulate the app on a device or upload it to the ionic cloud. From here you can download the ionic view app and use the app on all devices.
 
 ## Kullanım
 
 Bu bölümde, projenin nasıl kullanılacağını anlatabilirsiniz. Örnek kullanım senaryoları veya kod parçacıkları ekleyebilirsiniz.
 
-
-
-## Lisans
-
-Proje hangi lisans altında yayınlanıyorsa burada belirtebilirsiniz. Lisans, projenin kullanım ve dağıtım koşullarını belirler. Açık kaynak projeler için genellikle MIT, Apache, GPL gibi lisanslar tercih edilir.
 
