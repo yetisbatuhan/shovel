@@ -6,7 +6,7 @@ Shovel app is designed to connect transportation fleets and individual transport
 
 ## Example Screenshots
 <p align="center">
-  <img src="dashboard.png" alt="Project Screenshot" width="300">
+  <img src="dashboard.png" alt="Project Screenshot" width="500">
 </p>
 <p align="center">
   <img src="my-earning.jpg" alt="Project Screenshot" width="300">
@@ -15,7 +15,7 @@ Shovel app is designed to connect transportation fleets and individual transport
   <img src="navigation.jpg" alt="Project Screenshot" width="300">
 </p>
 <p align="center">
-  <img src="schedule.jpg" alt="Project Screenshot" width="300">
+  <img src="schedule.jpg" alt="Project Screenshot" width="400">
 </p>
 ## Start the Project
 To start the project, follow these steps:
