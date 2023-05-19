@@ -7,7 +7,9 @@ shovel projesi taşımacılık sektöründe boşluk üzerine düsünülmüş bir
 shovel app tasımacılık filolarını ve bireysel tasımacılık ihtiyacını bulusturmak üzerine tasarlanmıs bir applikasyondur.   
 ## Örnek Ekran Görüntüsü
 
-![Proje Ekran Görüntüsü](dashboard.png)
+<p align="center">
+  <img src="dashboard.png" alt="Proje Ekran Görüntüsü" width="400">
+</p>
 ![Proje Ekran Görüntüsü](my-earning.jpg)
 ![Proje Ekran Görüntüsü](navigation.jpg)
 ![Proje Ekran Görüntüsü](schedule.jpg)
