@@ -17,7 +17,8 @@ Shovel app is designed to connect transportation fleets and individual transport
 <p align="center">
   <img src="schedule.jpg" alt="Project Screenshot" width="400">
 </p>
-## Start the Project
+
+##  Start the Project
 To start the project, follow these steps:
 
 Run npm install to install all dependencies.
