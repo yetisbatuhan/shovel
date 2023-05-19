@@ -1,11 +1,16 @@
-# Proje Başlığı
+# Shovel-lift
 
-Bu, projenin başlık kısmıdır. Burada projenin kısa bir tanımını yapabilirsiniz.
+shovel projesi taşımacılık sektöründe boşluk üzerine düsünülmüş bir girisimcilik projesidir. 
 
 ## Amaç
 
-Bu bölümde, projenin amacını belirtebilirsiniz. Ne yapmayı hedeflediğinizi ve projenin neden önemli olduğunu açıklayabilirsiniz.
+shovel app tasımacılık filolarını ve bireysel tasımacılık ihtiyacını bulusturmak üzerine tasarlanmıs bir applikasyondur.   
+## Örnek Ekran Görüntüsü
 
+![Proje Ekran Görüntüsü](dashboard.png)
+![Proje Ekran Görüntüsü](my-earning.jpg)
+![Proje Ekran Görüntüsü](navigation.jpg)
+![Proje Ekran Görüntüsü](schedule.jpg)
 ## Kurulum
 
 Burada, projenin nasıl kurulacağına dair adımları açıklayabilirsiniz. Gerekli bağımlılıkları nasıl yükleyeceğinizi veya projeyi nasıl çalıştıracağınızı belirtebilirsiniz.
@@ -14,9 +19,7 @@ Burada, projenin nasıl kurulacağına dair adımları açıklayabilirsiniz. Ger
 
 Bu bölümde, projenin nasıl kullanılacağını anlatabilirsiniz. Örnek kullanım senaryoları veya kod parçacıkları ekleyebilirsiniz.
 
-## Katkıda Bulunma
 
-Bu bölümde, diğer geliştiricilerin projeye nasıl katkıda bulunabileceklerini belirtebilirsiniz. Pull talepleri, hata raporları veya öneriler için nasıl iletişim kurulacağını açıklayabilirsiniz.
 
 ## Lisans
 
