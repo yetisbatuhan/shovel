@@ -1,23 +1,23 @@
-Shovel-lift
+## Shovel-lift
 Shovel is an entrepreneurial project designed for the transportation industry, focusing on filling the gap.
 
-Purpose
+##  Purpose
 Shovel app is designed to connect transportation fleets and individual transportation needs. This part of the project focuses on mobile-optimized interface designs.
 
-Example Screenshots
+## Example Screenshots
 <p align="center">
-  <img src="dashboard.png" alt="Project Screenshot" width="600">
+  <img src="dashboard.png" alt="Project Screenshot" width="300">
 </p>
 <p align="center">
-  <img src="my-earning.jpg" alt="Project Screenshot" width="600">
+  <img src="my-earning.jpg" alt="Project Screenshot" width="300">
 </p>
 <p align="center">
-  <img src="navigation.jpg" alt="Project Screenshot" width="600">
+  <img src="navigation.jpg" alt="Project Screenshot" width="300">
 </p>
 <p align="center">
-  <img src="schedule.jpg" alt="Project Screenshot" width="600">
+  <img src="schedule.jpg" alt="Project Screenshot" width="300">
 </p>
-Start the Project
+## Start the Project
 To start the project, follow these steps:
 
 Run npm install to install all dependencies.
