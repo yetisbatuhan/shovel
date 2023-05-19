@@ -19,6 +19,7 @@ Shovel app is designed to connect transportation fleets and individual transport
 <p align="center">
   <img src="schedule.jpg" alt="Proje Ekran Görüntüsü" width="600">
 </p>
+
 ## Start the project
 
 The project is started with the regular ionic commands.
